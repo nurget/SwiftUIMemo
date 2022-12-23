@@ -10,9 +10,9 @@
 		D6D06E2F2955ECDE00567EAE /* SwiftUIMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D06E2E2955ECDE00567EAE /* SwiftUIMemoApp.swift */; };
 		D6D06E312955ECDE00567EAE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D06E302955ECDE00567EAE /* Persistence.swift */; };
 		D6D06E342955ECDE00567EAE /* SwiftUIMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6D06E322955ECDE00567EAE /* SwiftUIMemo.xcdatamodeld */; };
-		D6D06E362955ECDE00567EAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D06E352955ECDE00567EAE /* ContentView.swift */; };
 		D6D06E382955ECDF00567EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D06E372955ECDF00567EAE /* Assets.xcassets */; };
 		D6D06E3C2955ECDF00567EAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D06E3B2955ECDF00567EAE /* Preview Assets.xcassets */; };
+		D6D06E432955ED0600567EAE /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D06E422955ED0600567EAE /* MainListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,10 @@
 		D6D06E2E2955ECDE00567EAE /* SwiftUIMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMemoApp.swift; sourceTree = "<group>"; };
 		D6D06E302955ECDE00567EAE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		D6D06E332955ECDE00567EAE /* SwiftUIMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUIMemo.xcdatamodel; sourceTree = "<group>"; };
-		D6D06E352955ECDE00567EAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D6D06E372955ECDF00567EAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6D06E392955ECDF00567EAE /* SwiftUIMemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIMemo.entitlements; sourceTree = "<group>"; };
 		D6D06E3B2955ECDF00567EAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6D06E422955ED0600567EAE /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +56,12 @@
 		D6D06E2D2955ECDE00567EAE /* SwiftUIMemo */ = {
 			isa = PBXGroup;
 			children = (
+				D6D06E452955ED5300567EAE /* Memory */,
+				D6D06E442955ED4A00567EAE /* CoreData */,
 				D6D06E2E2955ECDE00567EAE /* SwiftUIMemoApp.swift */,
-				D6D06E302955ECDE00567EAE /* Persistence.swift */,
-				D6D06E352955ECDE00567EAE /* ContentView.swift */,
+				D6D06E422955ED0600567EAE /* MainListView.swift */,
 				D6D06E372955ECDF00567EAE /* Assets.xcassets */,
 				D6D06E392955ECDF00567EAE /* SwiftUIMemo.entitlements */,
-				D6D06E322955ECDE00567EAE /* SwiftUIMemo.xcdatamodeld */,
 				D6D06E3A2955ECDF00567EAE /* Preview Content */,
 			);
 			path = SwiftUIMemo;
@@ -73,6 +73,22 @@
 				D6D06E3B2955ECDF00567EAE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6D06E442955ED4A00567EAE /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D6D06E302955ECDE00567EAE /* Persistence.swift */,
+				D6D06E322955ECDE00567EAE /* SwiftUIMemo.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		D6D06E452955ED5300567EAE /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Memory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +162,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6D06E342955ECDE00567EAE /* SwiftUIMemo.xcdatamodeld in Sources */,
+				D6D06E432955ED0600567EAE /* MainListView.swift in Sources */,
 				D6D06E2F2955ECDE00567EAE /* SwiftUIMemoApp.swift in Sources */,
-				D6D06E362955ECDE00567EAE /* ContentView.swift in Sources */,
 				D6D06E312955ECDE00567EAE /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
