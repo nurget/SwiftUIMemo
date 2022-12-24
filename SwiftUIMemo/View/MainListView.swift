@@ -18,7 +18,6 @@ struct MainListView: View {
             .listStyle(.plain)
             .navigationTitle("내 메모")
         }
-        
     }
 }
 

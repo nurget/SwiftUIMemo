@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D643C9E82956C0B500B142CA /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643C9E72956C0B500B142CA /* MemoCell.swift */; };
+		D643C9EA2956C1EC00B142CA /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643C9E92956C1EC00B142CA /* ComposeView.swift */; };
 		D6D06E2F2955ECDE00567EAE /* SwiftUIMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D06E2E2955ECDE00567EAE /* SwiftUIMemoApp.swift */; };
 		D6D06E312955ECDE00567EAE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D06E302955ECDE00567EAE /* Persistence.swift */; };
 		D6D06E342955ECDE00567EAE /* SwiftUIMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6D06E322955ECDE00567EAE /* SwiftUIMemo.xcdatamodeld */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		D643C9E72956C0B500B142CA /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
+		D643C9E92956C1EC00B142CA /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
 		D6D06E2B2955ECDE00567EAE /* SwiftUIMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D06E2E2955ECDE00567EAE /* SwiftUIMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMemoApp.swift; sourceTree = "<group>"; };
 		D6D06E302955ECDE00567EAE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 			isa = PBXGroup;
 			children = (
 				D643C9E72956C0B500B142CA /* MemoCell.swift */,
+				D6D06E422955ED0600567EAE /* MainListView.swift */,
+				D643C9E92956C1EC00B142CA /* ComposeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -74,7 +78,6 @@
 				D6D06E452955ED5300567EAE /* Memory */,
 				D6D06E442955ED4A00567EAE /* CoreData */,
 				D6D06E2E2955ECDE00567EAE /* SwiftUIMemoApp.swift */,
-				D6D06E422955ED0600567EAE /* MainListView.swift */,
 				D6D06E372955ECDF00567EAE /* Assets.xcassets */,
 				D6D06E392955ECDF00567EAE /* SwiftUIMemo.entitlements */,
 				D6D06E3A2955ECDF00567EAE /* Preview Content */,
@@ -183,6 +186,7 @@
 				D6D06E492955EE9700567EAE /* MemoStore.swift in Sources */,
 				D6D06E432955ED0600567EAE /* MainListView.swift in Sources */,
 				D6D06E2F2955ECDE00567EAE /* SwiftUIMemoApp.swift in Sources */,
+				D643C9EA2956C1EC00B142CA /* ComposeView.swift in Sources */,
 				D6D06E312955ECDE00567EAE /* Persistence.swift in Sources */,
 				D6D06E472955EDC900567EAE /* Memo.swift in Sources */,
 			);
