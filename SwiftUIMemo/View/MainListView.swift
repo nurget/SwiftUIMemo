@@ -35,6 +35,7 @@ struct MainListView: View {
                 ComposeView()
             }
         }
+        .navigationViewStyle(.stack) // 추가 안해주면 bottomBar 대신 회색 영역으로 변함.
     }
 }
 
