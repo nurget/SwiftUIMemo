@@ -10,6 +10,9 @@ import SwiftUI
 struct MainListView: View {
     @EnvironmentObject var store: MemoStore
     
+    @State private var showComposer: Bool = false
+    
+    
     var body: some View {
         NavigationView {
             List(store.list) { memo in
@@ -17,6 +20,16 @@ struct MainListView: View {
             }
             .listStyle(.plain)
             .navigationTitle("내 메모")
+            .toolbar {
+                Button {
+                    showComposer = true // plus 버튼을 눌렀을 때 실행되는 곳
+                } label: {
+                    Image(systemName: "plus")
+                }
+            }
+            .sheet(isPresented: $showComposer) {
+                ComposeView()
+            }
         }
     }
 }
